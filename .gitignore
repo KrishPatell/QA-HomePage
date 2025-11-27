@@ -8,6 +8,7 @@
 !qa-home/
 
 # Allow all files in qa-home
+!webflow.json
 !qa-home/**
 
 # But ignore common files in qa-home
