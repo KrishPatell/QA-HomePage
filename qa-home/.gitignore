@@ -1,0 +1,53 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Personal documents and media
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.csv
+*.mp4
+*.mov
+*.mp3
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.heic
+*.HEIC
+*.PNG
+*.JPG
+*.JPEG
+
+# Other project directories (don't track parent directory files)
+../*
+
