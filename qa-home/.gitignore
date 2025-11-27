@@ -51,3 +51,7 @@ npm-debug.log*
 # Other project directories (don't track parent directory files)
 ../*
 
+
+# Dependencies
+node_modules/
+dist/
