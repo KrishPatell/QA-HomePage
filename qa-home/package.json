@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "QuickAds Hero Designs",
   "scripts": {
-    "build": "echo 'Static HTML - no build required'"
+    "build": "rm -rf dist && mkdir -p dist && cp quickads-hero-designs.html dist/index.html",
+    "vercel-build": "npm run build"
   },
   "keywords": [],
   "author": "",
