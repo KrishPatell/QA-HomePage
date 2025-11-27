@@ -1,6 +1,8 @@
 {
-  "framework": "custom",
-  "buildCommand": "cd qa-home && npm install && npm run build",
-  "outputDirectory": "qa-home/dist",
-  "installCommand": "cd qa-home && npm install"
+  "cosmic": {
+    "framework": "custom",
+    "installCommand": "cd qa-home && npm install",
+    "buildCommand": "cd qa-home && npm run build",
+    "outputDirectory": "qa-home/dist"
+  }
 }
