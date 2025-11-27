@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But allow .gitignore itself
+!.gitignore
+
+# Allow qa-home directory
+!qa-home/
+
+# Allow all files in qa-home
+!qa-home/**
+
+# But ignore common files in qa-home
+qa-home/.DS_Store
+qa-home/*.log
+qa-home/.cursor/
+
