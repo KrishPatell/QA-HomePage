@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "QuickAds Hero Designs",
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist && cp quickads-hero-designs.html dist/index.html",
-    "vercel-build": "npm run build"
+    "dev": "vite",
+    "build": "vite build && mv dist/quickads-hero-designs.html dist/index.html",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
 }
-
